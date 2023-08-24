@@ -9,4 +9,4 @@ image= Image.open("nacional.png")
 
 st.image(image,caption ='nacional')
 
-texto= st.text_input("solo nacional a morir",texto)
+texto= st.text_input('solo nacional a morir',texto)
