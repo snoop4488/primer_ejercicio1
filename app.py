@@ -10,4 +10,4 @@ image= Image.open("nacional.png")
 st.image(image,caption ='nacional')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es', texto
+st.write('El texto escrito es', texto)
