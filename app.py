@@ -18,20 +18,20 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Esta es la primera columna")
-    st.write("Las interfaces multimodales mejoran la experiencia de usuario")
+    st.write("El nacional es el mejor equipo de colombia")
     resp = st.checkbox('Estoy de acuerdo')
     if resp:
        st.write('Correcto!')
   
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo = st.radio("Que Modalidad es la principal en tu interfaz", ('Visual', 'auditiva', 'Táctil'))
-    if modo == 'Visual':
-       st.write('La vista es fundamental para tu interfaz')
-    if modo == 'auditiva':
-       st.write('La audición es fundamental para tu interfaz')
-    if modo == 'Táctil':
-       st.write('El tacto es fundamental para tu interfaz')
+    modo = st.radio("Cuantas copas libertadores tiene el nacional", ('2', '0', '1'))
+    if modo == '2':
+       st.write('es correcto el nacional tiene 2 liberadores')
+    if modo == '0':
+       st.write('0? como creees sapo')
+    if modo == '1':
+       st.write('equivocado pa')
         
 st.subheader("Uso de Botones")
 if st.button('Presiona el botón'):
